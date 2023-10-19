@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+
+
+}header{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0 , 0, 0.9);
+
+
+
+}ul{
+    display: flex;
+    margin: 23px;
+
+}li{
+    color: blueviolet;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+    position: absolute;
+    left: 90%;
+
+}.main{
+    background-color: rgba(0, 0 , 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+
+}.cadastro{
+    background-color: rgba(0, 0 , 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    border-radius: 15px;
+    color: white;
+
+}.paciente{
+    background-color: rgba(0, 0 , 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+
+}input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}button{
+    background-color:  blueviolet;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+
+}button:hover{
+    background-color: rgb(157, 116, 196);
+
+}table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+
+}table thead tr{
+    background-color: blueviolet;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+
+}table th,
+table td{
+    padding: 12px 15px;
+
+}table tbody tr{
+    border-bottom: 1px solid #dddd;
+
+}table tbody tr:nth-of-type(even){
+    background-color: rgba(0, 0 , 0, 0.5);
+
+}table tbody tr:last-of-type{
+    border-bottom: 2px solid blueviolet;
+
+}a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}a:hover{
+    color: rgb(157, 116, 196);
+
+}.lnk2{
+    position:absolute;
+    right: 15%;
+    
+}.litab{
+    position: absolute;
+    left: 80% ;
+}
